@@ -23,6 +23,8 @@ A simple browser-based weather history viewer that fetches real historical tempe
 - [Open-Meteo Historical Weather API](https://archive-api.open-meteo.com/) — free and open source
 - Browser Geolocation API
 
+## Hosted site 
+- https://ruhaanpathan.github.io/weather-history-tracker/
 ## Getting Started
 
 Just open `index.html` in your browser — no installation or API key required.
