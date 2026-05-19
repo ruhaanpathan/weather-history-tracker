@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="heading">
+        <h1>Weather Report</h1>
+    </div>
+    <div id="controls">
+        <label for="s_date">Enter the start date</label>
+        <input type="date" id="s_date">
+        <label for="e_date">Enter the end date</label>
+        <input type="date" id="e_date">
+        <button id="fetch_button">Fetch Weather</button>
+    </div>
+    <div id="weather">
+        <ul id="list">
+        </ul>
+    </div>
+
+    <script src="async.js"></script>
+
+</body>
+</html>
